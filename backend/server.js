@@ -10,7 +10,7 @@ const app = express();
 const allowedOrigins = [
   'http://localhost:3000',
   process.env.FRONTEND_URL,
-  'https://fashion-store-frontend.onrender.com'
+  'https://fashion-store-frontend-j90v.onrender.com'
 ].filter(Boolean);
 
 const corsOptions = {
